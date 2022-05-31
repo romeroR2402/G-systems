@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="css/css.css" media="screen"/>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+	  <img src="logo.png" width="154" height="52" alt=""/>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page">Home</a>
+        </li>        
+      </ul>
+      <form class="d-flex" role="search">
+       <button class="btn btn-outline-success" href="index.html">Cerrar sesion</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+<div class="jumbotron jumbotron-fluid text-center baner1">
+  <h1 class="display-4">Calendario de medicos</h1>
+       </p>
+    </div>
+	
+	
+    <div class="container">
+<div align="right">	
+<div class="card" style="width: 13rem;">
+  <div class="card-body">
+    <h5 class="card-title">Dr. Juan Manuel</h5>
+    <h6 class="card-subtitle mb-2 text-muted">No.0338383939</h6>
+  </div>
+	</div>	
+</div>
+       <br>
+       <hr>
+       <br>
+       <div class="row">
+        <form class="row g-3">
+  <div class="col-md-4">
+    <labe>Selecionar</label>
+    <select class="form-select mb-3" id="validationDefault04" required>
+      <option selected disabled value="">Medico</option>
+      <option>Medico 1</option>
+	  <option>Medico 2</option>
+	  <option>Medico 3</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+      <labe>Nombre del medico</label>
+    <select class="form-select mb-3" id="validationDefault04" required>
+      <option selected disabled value="">Nombre</option>
+      <option>Ramon 1</option>
+	  <option>nombre 2</option>
+	  <option>nombre 3</option>
+    </select>
+  </div>
+  <div class="col-md-4">
+    <div class="form-group">
+            <label>Elija la hora de inicio:</label>
+            <!--Especificar etiqueta de fecha-->
+            <div class='input-group date' id='datetimepicker1'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationDefault03" class="form-label">horario disponible:</label>
+    <input type="text" class="form-control" id="validationDefault03" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">Nombre(s):</label>
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Apellido Paterno</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			 <div class="col-md-3">
+    <label for="validationDefault06" class="form-label">Apellido Materno</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			 <div class="col-md-3">
+    <label for="validationDefault07" class="form-label">Edad</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			 <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Localidad</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+	<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Telefono</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Expediente del paciente</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Correo electronico</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Tipo de cita</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			<div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Medio por el que se entero</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+			<div class="col-md-3">
+			<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+</div>
+			</div>	
+		  <div class="col-9">
+			<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div>
+			</div>
+			
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Buscar</button>
+  </div>
+</form>
+      
+       <br>
+       <hr>
+      
+		   
+       </div>
+    </div>
+	<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © G Systems
+  </div>
+  <!-- Copyright -->
+</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+		<script>
+		$(function () {
+    var picker1 = $('#datetimepicker1').datetimepicker({
+        format: 'YYYY-MM-DD',
+        locale: moment.locale('zh-cn'),
+        //minDate: '2016-7-1'
+    });
+    var picker2 = $('#datetimepicker2').datetimepicker({
+        format: 'YYYY-MM-DD',
+        locale: moment.locale('zh-cn')
+    });
+    //Establecer valor mínimo de forma dinámica
+    picker1.on('dp.change', function (e) {
+        picker2.data('DateTimePicker').minDate(e.date);
+    });
+    //Valor máximo establecido dinámicamente
+    picker2.on('dp.change', function (e) {
+        picker1.data('DateTimePicker').maxDate(e.date);
+    });
+});</script>
+  </body>
+</html>
